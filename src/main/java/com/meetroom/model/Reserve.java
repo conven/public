@@ -23,22 +23,6 @@ public class Reserve {
 	public Reserve() {
 		super();
 	}
-	
-	
-/*	public Reserve(long id, String romId, String usrNm, String rsvPw, String rsvDt, int strCd, int endCd, int rsvTp, boolean completed) {
-		super();
-		this.id = id;
-		this.romId = romId;
-		this.usrNm = usrNm;
-		this.rsvPw = rsvPw;
-		this.rsvDt = rsvDt;
-		this.strCd = strCd;
-		this.endCd = endCd;
-		this.rsvTp = rsvTp;
-		
-		this.completed = completed;
-	}*/
-
 
 	public Reserve(String romId, String usrNm, String rsvPw, String rsvDt, int strCd, int endCd, int rsvTp, boolean completed) {
 		super();

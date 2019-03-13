@@ -16,15 +16,6 @@ public class Schedule {
 	public Schedule() {
 		super();
 	}
-	
-	
-/*	public Schedule(long id, String strCd, String endCd) {
-		super();
-		this.id = id;
-		this.strCd = strCd;
-		this.endCd = endCd;
-	}*/
-
 
 	public Schedule(String strCd, String endCd) {
 		super();
@@ -34,21 +25,12 @@ public class Schedule {
 	public long getId() {
 		return id;
 	}
-/*	public void setId(long id) {
-		this.id = id;
-	}*/
+
 	
 	public String getStrCd() {
 		return strCd;
 	}
-/*	public void setStrCd(String strCd) {
-		this.strCd = strCd;
-	}*/
 	public String getEndCd() {
 		return endCd;
 	}
-/*	public void setEndCd(String endCd) {
-		this.endCd = endCd;
-	}*/
-
 }
